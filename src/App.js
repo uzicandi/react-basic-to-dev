@@ -1,5 +1,5 @@
 import React from 'react';
-import Counter from './Counter';
+import Say from './Say';
 
 const App = () => {
   //return <MyComponent name="React" />;
@@ -10,7 +10,7 @@ const App = () => {
   //   </MyComponent>
   // ); // children
 
-  return <Counter />;
+  return <Say />;
 };
 
 export default App;
