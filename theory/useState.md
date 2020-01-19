@@ -19,4 +19,5 @@ const [message, setMessage] = useState('');
 ## state 에 input 값 담기 
 - 생성자 메서드인 **constructor**에서 **state** 초깃값을 설정하고, 이벤트핸들링 함수 내부에서 `this.setState` 메서드를 호출하여 state를 업데이트 함.
 - 이후 input의 value값을 state에 있는 값으로 설정.
+- input에 아무것이나 입력하고, 오류 발생하지 않으면 state에 텍스트를 잘 담은 것임. 
 - `EventPractice.js`참고. (링크달기) 
